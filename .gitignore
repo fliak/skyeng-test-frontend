@@ -18,3 +18,4 @@ _temp
 !wallaby.js
 compiled-js
 !compiled-js/.gitkeep
+npm-debug.log
