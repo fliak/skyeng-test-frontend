@@ -8,6 +8,11 @@
     "experimentalDecorators": true,
     "removeComments": false,
     "noImplicitAny": true,
-    "suppressImplicitAnyIndexErrors": true
-  }
+    "suppressImplicitAnyIndexErrors": true,
+    "outDir": "compiled-js"
+  },
+  "filesGlob": [
+        "./**/*.ts",
+        "!./node_modules/**/*.ts"
+    ]
 }
